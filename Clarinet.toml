@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/ecosystem-management.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.multiverse-species-nft]
+path = 'contracts/multiverse-species-nft.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
